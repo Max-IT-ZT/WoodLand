@@ -1,0 +1,49 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  color: #fff;
+}
+/* styles.css */
+:root {
+  --bg: rgb(35, 35, 35);
+  --text: rgb(229, 229, 229);
+  --hover: rgb(10, 121, 239);
+  --apply: rgb(14, 200, 14);
+  --cancel: rgb(244, 10, 10);
+  --bg-button: url(/src/assets/bg-button.png);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
